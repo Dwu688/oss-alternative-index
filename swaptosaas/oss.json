@@ -1,0 +1,1080 @@
+{
+  "snapshot_note": "Curated index maintained for SwapToSaaS. Prices and deploy ratings are our snapshots, not live vendor quotes.",
+  "source_updated": "2026-07-06",
+  "projects": {
+    "appflowy": {
+      "name": "AppFlowy",
+      "github": "AppFlowy-IO/AppFlowy",
+      "website": "https://appflowy.com",
+      "replaces": [
+        "notion"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "productivity",
+      "tagline": "The open source alternative to Notion.",
+      "official_saas_price_usd_monthly": 10
+    },
+    "affine": {
+      "name": "AFFiNE",
+      "github": "toeverything/AFFiNE",
+      "website": "https://affine.pro",
+      "replaces": [
+        "notion",
+        "miro"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "productivity",
+      "tagline": "There can be more than Notion and Miro.",
+      "official_saas_price_usd_monthly": 6.75
+    },
+    "docmost": {
+      "name": "Docmost",
+      "github": "docmost/docmost",
+      "website": "https://docmost.com",
+      "replaces": [
+        "notion",
+        "confluence"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "productivity",
+      "tagline": "Open-source collaborative wiki and documentation software.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "anytype": {
+      "name": "Anytype",
+      "github": "anyproto/anytype-ts",
+      "website": "https://anytype.io",
+      "replaces": [
+        "notion"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud",
+        "p2p"
+      ],
+      "category": "productivity",
+      "tagline": "Local-first, encrypted personal knowledge OS.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "bookstack": {
+      "name": "BookStack",
+      "github": "BookStackApp/BookStack",
+      "website": "https://www.bookstackapp.com",
+      "replaces": [
+        "notion",
+        "confluence"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "productivity",
+      "tagline": "A simple, self-hosted, easy-to-use platform for organising and storing information.",
+      "official_saas_price_usd_monthly": null
+    },
+    "trilium": {
+      "name": "Trilium Notes",
+      "github": "TriliumNext/Notes",
+      "website": "https://github.com/TriliumNext/Notes",
+      "replaces": [
+        "notion",
+        "obsidian"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "productivity",
+      "tagline": "Hierarchical note-taking application with focus on building large personal knowledge bases.",
+      "official_saas_price_usd_monthly": null
+    },
+    "logseq": {
+      "name": "Logseq",
+      "github": "logseq/logseq",
+      "website": "https://logseq.com",
+      "replaces": [
+        "notion",
+        "roam-research"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "productivity",
+      "tagline": "A privacy-first, open-source platform for knowledge management and collaboration.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "outline": {
+      "name": "Outline",
+      "github": "outline/outline",
+      "website": "https://www.getoutline.com",
+      "replaces": [
+        "notion",
+        "confluence"
+      ],
+      "license": "BSL",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "productivity",
+      "tagline": "The fastest knowledge base for growing teams.",
+      "official_saas_price_usd_monthly": 10
+    },
+    "n8n": {
+      "name": "n8n",
+      "github": "n8n-io/n8n",
+      "website": "https://n8n.io",
+      "replaces": [
+        "zapier",
+        "make"
+      ],
+      "license": "Sustainable Use",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "automation",
+      "tagline": "Free and source-available fair-code licensed workflow automation tool.",
+      "official_saas_price_usd_monthly": 20
+    },
+    "activepieces": {
+      "name": "Activepieces",
+      "github": "activepieces/activepieces",
+      "website": "https://www.activepieces.com",
+      "replaces": [
+        "zapier",
+        "make"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "automation",
+      "tagline": "AI-first, no-code workflow automation.",
+      "official_saas_price_usd_monthly": 25
+    },
+    "node-red": {
+      "name": "Node-RED",
+      "github": "node-red/node-red",
+      "website": "https://nodered.org",
+      "replaces": [
+        "zapier",
+        "make"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "automation",
+      "tagline": "Low-code programming for event-driven applications.",
+      "official_saas_price_usd_monthly": null
+    },
+    "huginn": {
+      "name": "Huginn",
+      "github": "huginn/huginn",
+      "website": "https://github.com/huginn/huginn",
+      "replaces": [
+        "zapier",
+        "ifttt"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "automation",
+      "tagline": "Create agents that monitor and act on your behalf.",
+      "official_saas_price_usd_monthly": null
+    },
+    "windmill": {
+      "name": "Windmill",
+      "github": "windmill-labs/windmill",
+      "website": "https://windmill.dev",
+      "replaces": [
+        "zapier",
+        "retool",
+        "airplane"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "automation",
+      "tagline": "Open-source developer platform to turn scripts into workflows and UIs.",
+      "official_saas_price_usd_monthly": 10
+    },
+    "automatisch": {
+      "name": "Automatisch",
+      "github": "automatisch/automatisch",
+      "website": "https://automatisch.io",
+      "replaces": [
+        "zapier"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "automation",
+      "tagline": "The open source Zapier alternative.",
+      "official_saas_price_usd_monthly": 20
+    },
+    "mattermost": {
+      "name": "Mattermost",
+      "github": "mattermost/mattermost",
+      "website": "https://mattermost.com",
+      "replaces": [
+        "slack",
+        "microsoft-teams"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "communication",
+      "tagline": "Secure, open-source messaging platform for enterprises.",
+      "official_saas_price_usd_monthly": 10
+    },
+    "rocketchat": {
+      "name": "Rocket.Chat",
+      "github": "RocketChat/Rocket.Chat",
+      "website": "https://rocket.chat",
+      "replaces": [
+        "slack",
+        "microsoft-teams"
+      ],
+      "license": "MIT + Commercial",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "communication",
+      "tagline": "The open source omnichannel customer communication platform.",
+      "official_saas_price_usd_monthly": 4
+    },
+    "zulip": {
+      "name": "Zulip",
+      "github": "zulip/zulip",
+      "website": "https://zulip.com",
+      "replaces": [
+        "slack"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "communication",
+      "tagline": "Open-source team chat that helps teams stay productive.",
+      "official_saas_price_usd_monthly": 8
+    },
+    "element": {
+      "name": "Element",
+      "github": "element-hq/element-web",
+      "website": "https://element.io",
+      "replaces": [
+        "slack",
+        "signal"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "communication",
+      "tagline": "Secure decentralized communication built on Matrix.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "nocodb": {
+      "name": "NocoDB",
+      "github": "nocodb/nocodb",
+      "website": "https://nocodb.com",
+      "replaces": [
+        "airtable"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "database",
+      "tagline": "The open source Airtable alternative.",
+      "official_saas_price_usd_monthly": 19
+    },
+    "baserow": {
+      "name": "Baserow",
+      "github": "baserow/baserow",
+      "website": "https://baserow.io",
+      "replaces": [
+        "airtable"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "database",
+      "tagline": "Open source no-code database and Airtable alternative.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "appsmith": {
+      "name": "Appsmith",
+      "github": "appsmithorg/appsmith",
+      "website": "https://www.appsmith.com",
+      "replaces": [
+        "retool",
+        "airtable"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "database",
+      "tagline": "Low-code project for building internal applications.",
+      "official_saas_price_usd_monthly": 15
+    },
+    "ollama": {
+      "name": "Ollama",
+      "github": "ollama/ollama",
+      "website": "https://ollama.com",
+      "replaces": [
+        "chatgpt"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 1,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "ai",
+      "tagline": "Get up and running with large language models locally.",
+      "official_saas_price_usd_monthly": null
+    },
+    "open-webui": {
+      "name": "Open WebUI",
+      "github": "open-webui/open-webui",
+      "website": "https://openwebui.com",
+      "replaces": [
+        "chatgpt"
+      ],
+      "license": "BSD-3-Clause",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "ai",
+      "tagline": "Extensible, feature-rich, self-hosted ChatGPT-like WebUI.",
+      "official_saas_price_usd_monthly": null
+    },
+    "librechat": {
+      "name": "LibreChat",
+      "github": "danny-avila/LibreChat",
+      "website": "https://librechat.ai",
+      "replaces": [
+        "chatgpt"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "ai",
+      "tagline": "Enhanced ChatGPT clone with agents, DALL-E, RAG, and multi-modal chat.",
+      "official_saas_price_usd_monthly": null
+    },
+    "lobechat": {
+      "name": "LobeChat",
+      "github": "lobehub/lobe-chat",
+      "website": "https://lobechat.com",
+      "replaces": [
+        "chatgpt"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "ai",
+      "tagline": "Open-source, modern-design AI chat framework.",
+      "official_saas_price_usd_monthly": 15
+    },
+    "plausible": {
+      "name": "Plausible Analytics",
+      "github": "plausible/analytics",
+      "website": "https://plausible.io",
+      "replaces": [
+        "google-analytics"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "Simple, privacy-friendly Google Analytics alternative.",
+      "official_saas_price_usd_monthly": 9
+    },
+    "umami": {
+      "name": "Umami",
+      "github": "umami-software/umami",
+      "website": "https://umami.is",
+      "replaces": [
+        "google-analytics"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 1,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "Simple, fast, privacy-focused alternative to Google Analytics.",
+      "official_saas_price_usd_monthly": 9
+    },
+    "matomo": {
+      "name": "Matomo",
+      "github": "matomo-org/matomo",
+      "website": "https://matomo.org",
+      "replaces": [
+        "google-analytics"
+      ],
+      "license": "GPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "The Google Analytics alternative that protects your data.",
+      "official_saas_price_usd_monthly": 23
+    },
+    "posthog": {
+      "name": "PostHog",
+      "github": "PostHog/posthog",
+      "website": "https://posthog.com",
+      "replaces": [
+        "mixpanel",
+        "amplitude",
+        "google-analytics"
+      ],
+      "license": "MIT + AGPL",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "All-in-one product analytics, session replay, feature flags, A/B testing.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "rudderstack": {
+      "name": "RudderStack",
+      "github": "rudderlabs/rudder-server",
+      "website": "https://www.rudderstack.com",
+      "replaces": [
+        "segment"
+      ],
+      "license": "Elastic License 2.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "Warehouse-native CDP built for developers.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "jitsu": {
+      "name": "Jitsu",
+      "github": "jitsucom/jitsu",
+      "website": "https://jitsu.com",
+      "replaces": [
+        "segment"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "analytics",
+      "tagline": "An open-source Segment alternative. Fully-scriptable data ingestion engine.",
+      "official_saas_price_usd_monthly": 199
+    },
+    "plane": {
+      "name": "Plane",
+      "github": "makeplane/plane",
+      "website": "https://plane.so",
+      "replaces": [
+        "linear",
+        "jira"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "project-management",
+      "tagline": "Open source project management tool. Alternative to Jira, Linear, Height.",
+      "official_saas_price_usd_monthly": 8
+    },
+    "focalboard": {
+      "name": "Focalboard",
+      "github": "mattermost/focalboard",
+      "website": "https://www.focalboard.com",
+      "replaces": [
+        "linear",
+        "trello",
+        "notion"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "project-management",
+      "tagline": "Open source, self-hosted alternative to Trello, Notion, and Asana.",
+      "official_saas_price_usd_monthly": null
+    },
+    "vikunja": {
+      "name": "Vikunja",
+      "github": "go-vikunja/vikunja",
+      "website": "https://vikunja.io",
+      "replaces": [
+        "todoist",
+        "linear"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "project-management",
+      "tagline": "The open-source, self-hostable to-do app.",
+      "official_saas_price_usd_monthly": 4
+    },
+    "penpot": {
+      "name": "Penpot",
+      "github": "penpot/penpot",
+      "website": "https://penpot.app",
+      "replaces": [
+        "figma"
+      ],
+      "license": "MPL-2.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "design",
+      "tagline": "The open-source design tool for design & code collaboration.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "excalidraw": {
+      "name": "Excalidraw",
+      "github": "excalidraw/excalidraw",
+      "website": "https://excalidraw.com",
+      "replaces": [
+        "figma",
+        "miro"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 1,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "design",
+      "tagline": "Virtual whiteboard for sketching hand-drawn like diagrams.",
+      "official_saas_price_usd_monthly": 6
+    },
+    "jitsi": {
+      "name": "Jitsi Meet",
+      "github": "jitsi/jitsi-meet",
+      "website": "https://jitsi.org",
+      "replaces": [
+        "zoom",
+        "google-meet"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "communication",
+      "tagline": "Free video conferencing, open source, no account needed.",
+      "official_saas_price_usd_monthly": null
+    },
+    "bigbluebutton": {
+      "name": "BigBlueButton",
+      "github": "bigbluebutton/bigbluebutton",
+      "website": "https://bigbluebutton.org",
+      "replaces": [
+        "zoom"
+      ],
+      "license": "LGPL-3.0",
+      "deploy_difficulty": 5,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "communication",
+      "tagline": "Open source virtual classroom software.",
+      "official_saas_price_usd_monthly": null
+    },
+    "nextcloud": {
+      "name": "Nextcloud",
+      "github": "nextcloud/server",
+      "website": "https://nextcloud.com",
+      "replaces": [
+        "dropbox",
+        "google-drive",
+        "office-365"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "storage",
+      "tagline": "The most deployed on-premises file share and collaboration platform.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "seafile": {
+      "name": "Seafile",
+      "github": "haiwen/seafile",
+      "website": "https://www.seafile.com",
+      "replaces": [
+        "dropbox"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "storage",
+      "tagline": "High performance file syncing and sharing, with also Markdown WYSIWYG editing.",
+      "official_saas_price_usd_monthly": 1.5
+    },
+    "minio": {
+      "name": "MinIO",
+      "github": "minio/minio",
+      "website": "https://min.io",
+      "replaces": [
+        "s3"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "storage",
+      "tagline": "High performance, S3 compatible object storage.",
+      "official_saas_price_usd_monthly": null
+    },
+    "coolify": {
+      "name": "Coolify",
+      "github": "coollabsio/coolify",
+      "website": "https://coolify.io",
+      "replaces": [
+        "vercel",
+        "netlify",
+        "heroku"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "devops",
+      "tagline": "An open-source & self-hostable Heroku / Netlify / Vercel alternative.",
+      "official_saas_price_usd_monthly": 5
+    },
+    "dokku": {
+      "name": "Dokku",
+      "github": "dokku/dokku",
+      "website": "https://dokku.com",
+      "replaces": [
+        "heroku"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "devops",
+      "tagline": "The smallest PaaS implementation you've ever seen.",
+      "official_saas_price_usd_monthly": null
+    },
+    "caprover": {
+      "name": "CapRover",
+      "github": "caprover/caprover",
+      "website": "https://caprover.com",
+      "replaces": [
+        "heroku",
+        "vercel"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "devops",
+      "tagline": "Scalable PaaS (automated Docker + Nginx cluster manager).",
+      "official_saas_price_usd_monthly": null
+    },
+    "grafana": {
+      "name": "Grafana",
+      "github": "grafana/grafana",
+      "website": "https://grafana.com",
+      "replaces": [
+        "datadog"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "monitoring",
+      "tagline": "The open observability platform.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "openobserve": {
+      "name": "OpenObserve",
+      "github": "openobserve/openobserve",
+      "website": "https://openobserve.ai",
+      "replaces": [
+        "datadog",
+        "elasticsearch"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "monitoring",
+      "tagline": "10x easier, 140x lower storage cost, high performance observability platform.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "keycloak": {
+      "name": "Keycloak",
+      "github": "keycloak/keycloak",
+      "website": "https://www.keycloak.org",
+      "replaces": [
+        "auth0"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "identity",
+      "tagline": "Open Source Identity and Access Management for modern applications.",
+      "official_saas_price_usd_monthly": null
+    },
+    "authentik": {
+      "name": "Authentik",
+      "github": "goauthentik/authentik",
+      "website": "https://goauthentik.io",
+      "replaces": [
+        "auth0"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "identity",
+      "tagline": "The authentication glue you need.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "supertokens": {
+      "name": "SuperTokens",
+      "github": "supertokens/supertokens-core",
+      "website": "https://supertokens.com",
+      "replaces": [
+        "auth0"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "identity",
+      "tagline": "Open source alternative to Auth0 / Firebase Auth / AWS Cognito.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "chatwoot": {
+      "name": "Chatwoot",
+      "github": "chatwoot/chatwoot",
+      "website": "https://www.chatwoot.com",
+      "replaces": [
+        "intercom",
+        "zendesk"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "customer-support",
+      "tagline": "Open-source live-chat, email support, omni-channel desk.",
+      "official_saas_price_usd_monthly": 19
+    },
+    "papercups": {
+      "name": "Papercups",
+      "github": "papercups-io/papercups",
+      "website": "https://papercups.io",
+      "replaces": [
+        "intercom"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "customer-support",
+      "tagline": "Open source live chat alternative to Intercom, Zendesk, Drift.",
+      "official_saas_price_usd_monthly": 39
+    },
+    "supabase": {
+      "name": "Supabase",
+      "github": "supabase/supabase",
+      "website": "https://supabase.com",
+      "replaces": [
+        "firebase"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "backend",
+      "tagline": "The open source Firebase alternative.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "appwrite": {
+      "name": "Appwrite",
+      "github": "appwrite/appwrite",
+      "website": "https://appwrite.io",
+      "replaces": [
+        "firebase"
+      ],
+      "license": "BSD-3-Clause",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "backend",
+      "tagline": "Build like a team of hundreds. Open-source backend server.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "pocketbase": {
+      "name": "PocketBase",
+      "github": "pocketbase/pocketbase",
+      "website": "https://pocketbase.io",
+      "replaces": [
+        "firebase"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 1,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "backend",
+      "tagline": "Open Source realtime backend in 1 file.",
+      "official_saas_price_usd_monthly": null
+    },
+    "nhost": {
+      "name": "Nhost",
+      "github": "nhost/nhost",
+      "website": "https://nhost.io",
+      "replaces": [
+        "firebase"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "backend",
+      "tagline": "The Open Source Firebase alternative with GraphQL.",
+      "official_saas_price_usd_monthly": 25
+    },
+    "listmonk": {
+      "name": "Listmonk",
+      "github": "knadh/listmonk",
+      "website": "https://listmonk.app",
+      "replaces": [
+        "mailchimp"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "marketing",
+      "tagline": "High performance, self-hosted newsletter and mailing list manager.",
+      "official_saas_price_usd_monthly": null
+    },
+    "mautic": {
+      "name": "Mautic",
+      "github": "mautic/mautic",
+      "website": "https://www.mautic.org",
+      "replaces": [
+        "mailchimp",
+        "hubspot"
+      ],
+      "license": "GPL-3.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host"
+      ],
+      "category": "marketing",
+      "tagline": "The world's largest open source marketing automation platform.",
+      "official_saas_price_usd_monthly": null
+    },
+    "cal-com": {
+      "name": "Cal.com",
+      "github": "calcom/cal.com",
+      "website": "https://cal.com",
+      "replaces": [
+        "calendly"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "scheduling",
+      "tagline": "Scheduling infrastructure for absolutely everyone.",
+      "official_saas_price_usd_monthly": 12
+    },
+    "formbricks": {
+      "name": "Formbricks",
+      "github": "formbricks/formbricks",
+      "website": "https://formbricks.com",
+      "replaces": [
+        "typeform"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "forms",
+      "tagline": "Open source experience management. Free & self-hostable.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "directus": {
+      "name": "Directus",
+      "github": "directus/directus",
+      "website": "https://directus.io",
+      "replaces": [
+        "contentful",
+        "airtable"
+      ],
+      "license": "BSL",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "cms",
+      "tagline": "Modern Open-Source Data Platform. Instant APIs & Apps for any SQL Database.",
+      "official_saas_price_usd_monthly": 0
+    },
+    "strapi": {
+      "name": "Strapi",
+      "github": "strapi/strapi",
+      "website": "https://strapi.io",
+      "replaces": [
+        "contentful"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "cms",
+      "tagline": "Design APIs fast, manage content easily. Leading Open-Source Headless CMS.",
+      "official_saas_price_usd_monthly": 15
+    },
+    "payload-cms": {
+      "name": "Payload CMS",
+      "github": "payloadcms/payload",
+      "website": "https://payloadcms.com",
+      "replaces": [
+        "contentful",
+        "strapi"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "category": "cms",
+      "tagline": "The next-generation Headless CMS and application framework built with TypeScript.",
+      "official_saas_price_usd_monthly": 35
+    }
+  }
+}

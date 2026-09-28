@@ -1,0 +1,443 @@
+{
+  "snapshot_note": "Curated index maintained for SwapToMartech. Self-host costs are our estimates, not vendor invoices.",
+  "source_updated": "2026-09-28 03:00 UTC",
+  "projects": {
+    "espocrm": {
+      "name": "EspoCRM",
+      "github": "espocrm/espocrm",
+      "website": "https://www.espocrm.com",
+      "tagline": "Open-source CRM for SMB marketing and sales teams",
+      "replaces": [
+        "hubspot",
+        "salesforce",
+        "zoho"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "official_saas_price_usd_monthly": 15,
+      "self_host_cost_usd_monthly": 14,
+      "status": "HEALTHY"
+    },
+    "twenty": {
+      "name": "Twenty",
+      "github": "twentyhq/twenty",
+      "website": "https://twenty.com",
+      "tagline": "Modern open-source CRM, TypeScript + GraphQL",
+      "replaces": [
+        "hubspot",
+        "salesforce"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "official_saas_price_usd_monthly": 9,
+      "self_host_cost_usd_monthly": 14,
+      "status": "HEALTHY"
+    },
+    "listmonk": {
+      "name": "Listmonk",
+      "github": "knadh/listmonk",
+      "website": "https://listmonk.app",
+      "tagline": "Self-hosted newsletter and mailing list manager",
+      "replaces": [
+        "mailchimp",
+        "convertkit",
+        "constantcontact"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host"
+      ],
+      "self_host_cost_usd_monthly": 6,
+      "status": "HEALTHY"
+    },
+    "mautic": {
+      "name": "Mautic",
+      "github": "mautic/mautic",
+      "website": "https://www.mautic.org",
+      "tagline": "Open-source marketing automation platform",
+      "replaces": [
+        "hubspot",
+        "marketo",
+        "activecampaign"
+      ],
+      "license": "GPL-3.0-or-later",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "acquia-cloud"
+      ],
+      "self_host_cost_usd_monthly": 20,
+      "status": "CAUTION_SECURITY"
+    },
+    "cal-com": {
+      "name": "Cal.diy (formerly Cal.com OSS)",
+      "github": "calcom/cal.diy",
+      "website": "https://github.com/calcom/cal.diy",
+      "tagline": "Community MIT fork of Cal.com with all enterprise code removed",
+      "replaces": [
+        "calendly",
+        "savvycal",
+        "acuity"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host"
+      ],
+      "official_saas_price_usd_monthly": null,
+      "self_host_cost_usd_monthly": 8,
+      "status": "NOT_FOR_PRODUCTION"
+    },
+    "brevo": {
+      "name": "Brevo (formerly Sendinblue)",
+      "github": null,
+      "website": "https://www.brevo.com",
+      "tagline": "All-in-one email/SMS/CRM SaaS with unlimited free contacts",
+      "replaces": [
+        "mailchimp",
+        "hubspot",
+        "activecampaign"
+      ],
+      "license": "Proprietary (freemium SaaS)",
+      "deploy_difficulty": 0,
+      "hosting_options": [
+        "saas-only"
+      ],
+      "official_saas_price_usd_monthly": 9,
+      "self_host_cost_usd_monthly": null
+    },
+    "mailerlite": {
+      "name": "MailerLite",
+      "github": null,
+      "website": "https://www.mailerlite.com",
+      "tagline": "Simple affordable email marketing SaaS",
+      "replaces": [
+        "mailchimp",
+        "convertkit"
+      ],
+      "license": "Proprietary (freemium SaaS)",
+      "deploy_difficulty": 0,
+      "hosting_options": [
+        "saas-only"
+      ],
+      "official_saas_price_usd_monthly": 10,
+      "self_host_cost_usd_monthly": null
+    },
+    "serpbear": {
+      "name": "SerpBear",
+      "github": "towfiqi/serpbear",
+      "website": "https://serpbear.com",
+      "tagline": "Self-hosted keyword rank tracker",
+      "replaces": [
+        "ahrefs",
+        "semrush",
+        "seranking"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 1,
+      "hosting_options": [
+        "self-host"
+      ],
+      "self_host_cost_usd_monthly": 6,
+      "status": "CAUTION_STALLED"
+    },
+    "n8n": {
+      "name": "n8n",
+      "github": "n8n-io/n8n",
+      "website": "https://n8n.io",
+      "tagline": "Source-available workflow automation with a visual editor and 400+ integrations",
+      "replaces": [
+        "zapier",
+        "make"
+      ],
+      "license": "Sustainable Use License (not OSI)",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "official_saas_price_usd_monthly": 22.75,
+      "self_host_cost_usd_monthly": 14,
+      "status": "NOT_OSI",
+      "caveats": "Licence is not OSI open source. NVD lists 137 CVE records matching 'n8n', the most recent high-severity one scoring 8.7 — the project patches quickly but a self-hosted instance is your responsibility to keep current."
+    },
+    "postiz": {
+      "name": "Postiz",
+      "github": "gitroomhq/postiz-app",
+      "website": "https://postiz.com",
+      "tagline": "AGPL-licensed social media scheduling with an AI-assisted composer",
+      "replaces": [
+        "hootsuite",
+        "buffer"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "CAUTION_SECURITY",
+      "caveats": "NVD lists 12 CVEs, mostly from 2026, including CVSS 10.0 (CVE-2026-42298, build-pipeline Pwn Request) and 9.9 (CVE-2026-48781, Skool callback signature). All are fixed in later releases and the project patches fast, but the exposure surface is public endpoints, webhook signature verification, file upload and SSRF. Run 2.21.8 or newer and treat version tracking as a standing obligation, not a one-off install."
+    },
+    "mixpost": {
+      "name": "Mixpost",
+      "github": "inovector/mixpost",
+      "website": "https://mixpost.app",
+      "tagline": "Self-hosted social media management built on Laravel",
+      "replaces": [
+        "hootsuite",
+        "buffer"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "status": "CAUTION_STALLED",
+      "caveats": "Development has effectively stalled: no commits in the last four weeks and only 23 in the past year. Star count reflects past popularity, not current maintenance, so we do not treat it as an equal alternative to Postiz."
+    },
+    "chatwoot": {
+      "name": "Chatwoot",
+      "github": "chatwoot/chatwoot",
+      "website": "https://www.chatwoot.com",
+      "tagline": "Open-core shared inbox and live chat, positioned directly against Intercom",
+      "replaces": [
+        "intercom",
+        "zendesk",
+        "freshdesk"
+      ],
+      "license": "MIT (core) + proprietary enterprise/ directory",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "CAUTION_SECURITY",
+      "caveats": "NVD lists 21 CVEs, 9 of them 2025 or later, max score 9.1, with one at 8.2 published 2026-07-23. Active patching, but a public support inbox is an internet-facing surface holding customer conversations. Note the scope limit: Chatwoot replaces Intercom's seats, not Fin AI resolution. Intercom's real cost driver is $0.99 per resolved outcome, uncapped, so self-hosting removes the seat bill while AI triage still costs LLM spend."
+    },
+    "keila": {
+      "name": "Keila",
+      "github": "pentacent/keila",
+      "tagline": "Self-hosted newsletter tool, Docker image plus Postgres",
+      "replaces": [
+        "mailchimp"
+      ],
+      "license": "AGPL-3.0",
+      "status": "HEALTHY"
+    },
+    "cap": {
+      "name": "Cap",
+      "github": "CapSoftware/Cap",
+      "website": "https://cap.so",
+      "tagline": "Self-hostable screen recording with shareable links",
+      "replaces": [
+        "loom"
+      ],
+      "license": "AGPL-3.0 + MIT (composite)",
+      "deploy_difficulty": 4,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 24,
+      "status": "HEALTHY"
+    },
+    "docmost": {
+      "name": "Docmost",
+      "github": "docmost/docmost",
+      "website": "https://docmost.com",
+      "tagline": "Open-source collaborative wiki and documentation platform",
+      "replaces": [
+        "notion",
+        "confluence"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 12,
+      "status": "HEALTHY"
+    },
+    "bookstack": {
+      "name": "BookStack",
+      "github": "BookStackApp/BookStack",
+      "website": "https://www.bookstackapp.com",
+      "tagline": "MIT-licensed documentation platform with no paid tier",
+      "replaces": [
+        "notion",
+        "confluence"
+      ],
+      "license": "MIT",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host"
+      ],
+      "self_host_cost_usd_monthly": 12,
+      "status": "HEALTHY"
+    },
+    "grist": {
+      "name": "Grist",
+      "github": "gristlabs/grist-core",
+      "website": "https://www.getgrist.com",
+      "tagline": "Open-source relational spreadsheet with a Python formula language",
+      "replaces": [
+        "airtable",
+        "excel"
+      ],
+      "license": "Apache-2.0",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "CAUTION_SECURITY",
+      "caveats": "Highest single CVSS score in the category: CVE-2026-24002, scored 9.0 CRITICAL by GitHub and 9.6 by NVD, in the Python formula sandbox - a core architectural feature, not a peripheral one. Two more XSS issues landed 2026-07-10 (8.5 v4.0) fixed in 1.7.15. The pattern is an actively audited project shipping fixes, but a self-hoster must stay current."
+    },
+    "baserow": {
+      "name": "Baserow",
+      "github": "baserow/baserow",
+      "website": "https://baserow.io",
+      "tagline": "No-code database platform with an MIT core and paid premium modules",
+      "replaces": [
+        "airtable"
+      ],
+      "license": "MIT core + proprietary premium/ and enterprise/",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "HEALTHY",
+      "caveats": "Open core with a per-seat paid licence. Premium is $10/user/mo annual ($12 monthly), Advanced $18 ($22), Enterprise on request - so activating the paid features re-introduces exactly the per-seat billing readers self-host to escape. A low CVE count can also reflect less security research attention rather than better code. Development happens on GitLab; the GitHub repo is a mirror, which is why star counts differ by roughly 2x depending on where you look."
+    },
+    "teable": {
+      "name": "Teable",
+      "github": "teableio/teable",
+      "website": "https://teable.io",
+      "tagline": "Postgres-backed spreadsheet-database hybrid with an AGPL core",
+      "replaces": [
+        "airtable"
+      ],
+      "license": "AGPL-3.0 core + MIT packages",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "CAUTION_SECURITY",
+      "caveats": "Two things to weigh. The AGPL section 7(e) brand clause forbids removing or replacing Teable branding, so white-labelling requires the paid tier. And CVE-2026-56773 (8.7 CVSS v4.0 / 8.8 v3.1, published 2026-06-26) is an authorisation bypass: the v2 REST controller lacked @Permissions metadata on ORPC endpoints, letting any authenticated user read schemas, create tables and modify or delete records across bases. CVE-2026-56781 separately exposed hidden field data anonymously."
+    },
+    "nocodb": {
+      "name": "NocoDB",
+      "github": "nocodb/nocodb",
+      "website": "https://www.nocodb.com",
+      "tagline": "Source-available no-code database front end for any SQL database",
+      "replaces": [
+        "airtable"
+      ],
+      "license": "Sustainable Use License (not OSI)",
+      "deploy_difficulty": 2,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "NOT_OSI",
+      "caveats": "Two disqualifiers for a recommendation. It is not open source: the Sustainable Use License restricts use to internal business purposes and forbids distributing it for a fee. And it carries the worst security record in the category by a wide margin - 58 NVD keyword hits, 44 since 2025-01-01, including a batch of 10+ published on a single day (2026-06-23) covering shared-view data leaks, a timing-based sign-in oracle, cross-workspace integration access and SQL injection via column create. Ten CVEs in one batch usually means one coordinated audit rather than ten incidents, but the volume is still the outlier."
+    },
+    "unleash": {
+      "name": "Unleash",
+      "slug": "unleash",
+      "github": "Unleash/unleash",
+      "homepage": "https://www.getunleash.io/",
+      "tagline": "Open-source feature management platform. AGPL-licensed with enterprise cloud/self-hosted options.",
+      "license": "AGPL-3.0",
+      "category": "feature-flags-experimentation",
+      "status": "HEALTHY"
+    },
+    "flagsmith": {
+      "name": "Flagsmith",
+      "slug": "flagsmith",
+      "github": "Flagsmith/flagsmith",
+      "homepage": "https://www.flagsmith.com/",
+      "tagline": "Open-source feature flags and remote config. BSD-3 licensed, production-ready with detailed scaling docs.",
+      "license": "BSD-3-Clause",
+      "category": "feature-flags-experimentation",
+      "status": "HEALTHY"
+    },
+    "growthbook-oss": {
+      "name": "GrowthBook (self-hosted)",
+      "slug": "growthbook-oss",
+      "github": "growthbook/growthbook",
+      "homepage": "https://www.growthbook.io/",
+      "tagline": "Open-source feature flags and A/B testing. MIT core with enterprise features under separate license.",
+      "license": "MIT (open-core)",
+      "category": "feature-flags-experimentation",
+      "status": "NOT_OSI"
+    },
+    "postal": {
+      "name": "Postal",
+      "github": "postalserver/postal",
+      "homepage": "https://docs.postalserver.io",
+      "description": "⚠️ Self-hosting email infrastructure requires significant expertise in IP reputation management, DKIM/SPF/DMARC, anti-spam mechanisms, and deliverability monitoring. Initial setup cost is low but operational complexity is high. Most VPS providers block port 25, requiring relay through a service like SES/Mailgun.",
+      "license": "MIT",
+      "category": "transactional_email",
+      "deploy_difficulty": 5,
+      "status": "HEALTHY"
+    },
+    "maddy": {
+      "name": "Maddy Mail Server",
+      "github": "foxcpp/maddy",
+      "homepage": "https://maddy.email",
+      "description": "⚠️ Self-hosting email infrastructure requires significant expertise in IP reputation management, DKIM/SPF/DMARC, anti-spam mechanisms, and deliverability monitoring. Lightweight but still requires IP warm-up and ongoing deliverability maintenance.",
+      "license": "GPL-3.0",
+      "category": "transactional_email",
+      "deploy_difficulty": 4,
+      "status": "CAUTION_STALLED"
+    },
+    "stalwart": {
+      "name": "Stalwart Mail Server",
+      "github": "stalwartlabs/stalwart",
+      "homepage": "https://stalw.art",
+      "description": "⚠️ Self-hosting email infrastructure requires significant expertise in IP reputation management, DKIM/SPF/DMARC, anti-spam mechanisms, and deliverability monitoring. Modern Rust implementation but operational complexity remains high.",
+      "license": "AGPL-3.0",
+      "category": "transactional_email",
+      "deploy_difficulty": 4,
+      "status": "HEALTHY"
+    },
+    "formbricks": {
+      "name": "Formbricks",
+      "github": "formbricks/formbricks",
+      "website": "https://formbricks.com",
+      "tagline": "Open-source survey and experience-management platform (Qualtrics alternative)",
+      "replaces": [
+        "typeform"
+      ],
+      "license": "AGPL-3.0",
+      "deploy_difficulty": 3,
+      "hosting_options": [
+        "self-host",
+        "official-cloud"
+      ],
+      "self_host_cost_usd_monthly": 40,
+      "status": "HEALTHY",
+      "caveats": "The ee/ tree (advanced features) is not AGPL: production use of EE modules requires a Formbricks Enterprise licence per apps/web/modules/ee/LICENSE — same composite shape as Mattermost. The default docker/docker-compose.yml runs 13 services including SpiceDB (fine-grained authz) and Cube (analytics BI); vLLM (GPU LLM serving) and taxonomy are compose-profile-gated and off by default. Advanced RBAC features may depend on the SpiceDB path, so pruning below 13 services is a judgement call per feature set."
+    }
+  }
+}

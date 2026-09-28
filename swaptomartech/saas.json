@@ -1,0 +1,289 @@
+{
+  "snapshot_note": "Commercial marketing tools compared on SwapToMartech.",
+  "products": {
+    "hubspot": {
+      "name": "HubSpot",
+      "category": "crm-marketing-automation",
+      "pricing_starting_usd_monthly": 20,
+      "billing_unit": "base edition fee + per Core Seat + per 5,000-contact block + metered AI credits",
+      "why_look_for_alternatives": "Pricing scales aggressively with contacts and seats. Onboarding fee is mandatory. Feature bundling forces users to pay for modules they don't use.",
+      "alternatives": [
+        "espocrm",
+        "twenty",
+        "brevo",
+        "activecampaign",
+        "mautic"
+      ]
+    },
+    "mailchimp": {
+      "name": "Mailchimp",
+      "category": "email-marketing",
+      "pricing_starting_usd_monthly": 13,
+      "why_look_for_alternatives": "Price jumps sharply once contact list grows past 500. Automation limited on lower tiers. Free plan capped at 500 contacts (down from 2000).",
+      "alternatives": [
+        "listmonk",
+        "keila",
+        "mautic",
+        "mailerlite",
+        "brevo"
+      ]
+    },
+    "ahrefs": {
+      "name": "Ahrefs",
+      "category": "seo-tools",
+      "pricing_starting_usd_monthly": 29,
+      "billing_unit": "flat plan fee + metered report credits + fixed-price capped seats",
+      "why_look_for_alternatives": "Ahrefs raised prices multiple times in 2023-2025. Starter plan lost bulk features. Costs $1500+/year even at entry.",
+      "alternatives": [
+        "serpbear",
+        "openseo",
+        "seo-panel",
+        "ubersuggest",
+        "seranking"
+      ]
+    },
+    "semrush": {
+      "name": "Semrush",
+      "category": "seo-tools",
+      "pricing_starting_usd_monthly": 140,
+      "why_look_for_alternatives": "Similar to Ahrefs but more feature-bloated. Entry tier limits are aggressive.",
+      "alternatives": [
+        "serpbear",
+        "openseo",
+        "seranking",
+        "answerthepublic",
+        "ubersuggest"
+      ]
+    },
+    "calendly": {
+      "name": "Calendly",
+      "category": "scheduling",
+      "pricing_starting_usd_monthly": 10,
+      "why_look_for_alternatives": "Per-seat pricing multiplies across a team, and the free tier's 1-event-type limit pushes most real users to paid immediately.",
+      "alternatives": [
+        "cal-com"
+      ]
+    },
+    "zapier": {
+      "name": "Zapier",
+      "category": "automation-ipaas",
+      "pricing_starting_usd_monthly": 19.99,
+      "why_look_for_alternatives": "Billing counts action steps, not workflow runs, so cost scales with workflow complexity rather than business volume. Adding a filter or formatter step to an existing Zap raises the bill without doing more work.",
+      "alternatives": [
+        "n8n"
+      ]
+    },
+    "hootsuite": {
+      "name": "Hootsuite",
+      "category": "social-media-management",
+      "pricing_starting_usd_monthly": 99.0,
+      "why_look_for_alternatives": "Pricing multiplies linearly per seat while the underlying job — queueing posts to public social APIs — has no proprietary data moat. Three seats cost roughly six times what the equivalent server does.",
+      "alternatives": [
+        "postiz",
+        "mixpost"
+      ]
+    },
+    "notion": {
+      "name": "Notion",
+      "category": "docs-wiki",
+      "pricing_starting_usd_monthly": 10.0,
+      "why_look_for_alternatives": "Per-seat pricing on a document store, where the underlying capability (structured docs in a database) has open-source equivalents.",
+      "alternatives": [
+        "docmost",
+        "bookstack"
+      ]
+    },
+    "slack": {
+      "name": "Slack",
+      "category": "team-chat",
+      "pricing_starting_usd_monthly": 7.25,
+      "why_look_for_alternatives": "Per-seat pricing where the binding constraint is message retention, which is a storage problem rather than a proprietary capability.",
+      "alternatives": []
+    },
+    "loom": {
+      "name": "Loom",
+      "category": "async-video",
+      "pricing_starting_usd_monthly": 15.0,
+      "why_look_for_alternatives": "Screen recording and hosting is commodity capability; the per-seat charge scales with team size while storage cost does not.",
+      "alternatives": [
+        "cap"
+      ]
+    },
+    "intercom": {
+      "name": "Intercom",
+      "category": "support-inbox",
+      "pricing_starting_usd_monthly": 39.0,
+      "why_look_for_alternatives": "Seat pricing plus an uncapped AI meter; the inbox itself is replaceable but the AI resolution cost follows you.",
+      "alternatives": [
+        "chatwoot"
+      ]
+    },
+    "airtable": {
+      "name": "Airtable",
+      "category": "database-nocode",
+      "pricing_starting_usd_monthly": 20.0,
+      "why_look_for_alternatives": "Per-seat pricing on a shared database, where the underlying capability is a Postgres table with a grid UI on top - and where the API throughput you may actually be hitting the wall on cannot be bought at any tier.",
+      "alternatives": [
+        "grist",
+        "baserow",
+        "teable",
+        "nocodb"
+      ]
+    },
+    "chatwoot": {
+      "name": "Chatwoot",
+      "category": "support-inbox",
+      "pricing_starting_usd_monthly": 19.0,
+      "why_look_for_alternatives": "Seat pricing scales linearly; 10+ agent teams pay $4,680–$11,880/yr on Business/Enterprise tiers",
+      "alternatives": [
+        "chatwoot"
+      ]
+    },
+    "launchdarkly": {
+      "name": "LaunchDarkly",
+      "category": "feature-flags-experimentation",
+      "pricing_starting_usd_monthly": 0,
+      "billing_unit": "client-side MAU (per 1K) + AI runs + service connections",
+      "why_look_for_alternatives": "Client-side MAU pricing scales quickly. 10K MAU = $1,200/year. Enterprise features (SCIM, approvals, 100+ day retention) require custom pricing.",
+      "alternatives": [
+        "unleash",
+        "flagsmith",
+        "growthbook"
+      ]
+    },
+    "growthbook": {
+      "name": "GrowthBook",
+      "category": "feature-flags-experimentation",
+      "pricing_starting_usd_monthly": 40,
+      "billing_unit": "per seat + CDN requests overage + CDN bandwidth overage",
+      "why_look_for_alternatives": "Seat-based pricing scales with team size. 10 seats = $4,800/year. Their own FAQ says 'pay for the people who run experiments, not the end users' but that hurts at scale.",
+      "alternatives": [
+        "unleash",
+        "flagsmith",
+        "posthog"
+      ]
+    },
+    "statsig": {
+      "name": "Statsig",
+      "category": "feature-flags-experimentation",
+      "pricing_starting_usd_monthly": 150,
+      "billing_unit": "baseline fee + per 1K events",
+      "why_look_for_alternatives": "Baseline fee + event-based pricing. Even with no events, you pay $1,800/year. High-traffic apps can rack up overage charges.",
+      "alternatives": [
+        "unleash",
+        "flagsmith",
+        "growthbook"
+      ]
+    },
+    "klaviyo": {
+      "name": "Klaviyo",
+      "category": "email-marketing-ecommerce",
+      "pricing_starting_usd_monthly": 20,
+      "billing_unit": "per profile tier + send volume cap (dual gates)",
+      "why_look_for_alternatives": "Most expensive ESP per contact. Charges for inactive profiles. Send volume caps create surprise upgrade pressure. Core segmentation + automation available in cheaper alternatives.",
+      "alternatives": [
+        "emailoctopus",
+        "mailerlite",
+        "brevo",
+        "listmonk",
+        "mautic"
+      ]
+    },
+    "activecampaign": {
+      "name": "ActiveCampaign",
+      "category": "email-marketing-automation",
+      "pricing_starting_usd_monthly": 19,
+      "billing_unit": "per contact tier + plan level",
+      "why_look_for_alternatives": "Expensive at scale (25k contacts = $4,668 to $10,548/year depending on tier). CRM bundling forces payment for unused features. Automation builder has steep learning curve.",
+      "alternatives": [
+        "emailoctopus",
+        "mailerlite",
+        "brevo",
+        "mautic",
+        "listmonk"
+      ]
+    },
+    "emailoctopus": {
+      "name": "EmailOctopus",
+      "category": "email-marketing",
+      "pricing_starting_usd_monthly": 9,
+      "billing_unit": "per contact tier",
+      "why_look_for_alternatives": "No revenue attribution. No SMS. Automation builder simpler than Klaviyo. Best for teams that do not need advanced e-commerce features.",
+      "alternatives": [
+        "mailerlite",
+        "brevo",
+        "listmonk"
+      ]
+    },
+    "mailerlite": {
+      "name": "MailerLite",
+      "category": "email-marketing",
+      "pricing_starting_usd_monthly": 10,
+      "billing_unit": "per subscriber tier",
+      "why_look_for_alternatives": "Limited automation depth. No revenue tracking. Good for content marketers, weak for e-commerce attribution.",
+      "alternatives": [
+        "emailoctopus",
+        "brevo",
+        "listmonk"
+      ]
+    },
+    "brevo": {
+      "name": "Brevo",
+      "category": "email-marketing",
+      "pricing_starting_usd_monthly": 9,
+      "billing_unit": "per send volume tier",
+      "why_look_for_alternatives": "Send-volume pricing can surprise high-frequency senders. UI less polished than Klaviyo. No revenue attribution.",
+      "alternatives": [
+        "emailoctopus",
+        "mailerlite",
+        "listmonk"
+      ]
+    },
+    "postmark": {
+      "name": "Postmark",
+      "homepage": "https://postmarkapp.com",
+      "category": "transactional_email",
+      "description": "Transactional email service focused on delivery speed and reliability. Offers detailed analytics, bounce/spam complaint tracking, and dedicated support.",
+      "pricing_url": "https://postmarkapp.com/pricing",
+      "why_look_for_alternatives": "Postmark costs $1,200/year for 100K emails vs SES Essentials at $192/year. But self-hosting costs $7,200/year in server + DevOps time. This is the rare case where the cheapest option is still a SaaS.",
+      "alternatives": [
+        "postal",
+        "maddy",
+        "stalwart"
+      ]
+    },
+    "amazon-ses": {
+      "name": "Amazon SES",
+      "homepage": "https://aws.amazon.com/ses/",
+      "category": "transactional_email",
+      "description": "AWS transactional email service. Pay-as-you-go pricing with no base fee. New accounts default to Essentials plan ($0.16/1K). Legacy à la carte ($0.10/1K) only available to accounts with metered activity before June 1, 2025.",
+      "pricing_url": "https://aws.amazon.com/ses/pricing/",
+      "why_look_for_alternatives": "SES Essentials is already the cheapest transactional email option at $192/year for 100K emails. The only reason to look elsewhere is if you need dedicated support, which SES does not provide."
+    },
+    "mailgun": {
+      "name": "Mailgun",
+      "homepage": "https://www.mailgun.com",
+      "category": "transactional_email",
+      "description": "Transactional email API service. Note: pricing varies by region (USD/EUR/GBP) with independent rates, not currency conversion.",
+      "pricing_url": "https://www.mailgun.com/pricing/",
+      "why_look_for_alternatives": "Mailgun Foundation costs $420/year for 50K emails. SES Essentials costs $96/year for the same volume. Unless you specifically need Mailgun's validation API or EU data residency, SES is cheaper."
+    },
+    "sendgrid": {
+      "name": "SendGrid",
+      "homepage": "https://sendgrid.com",
+      "category": "transactional_email",
+      "description": "Transactional email service, now part of Twilio. Pricing has moved to twilio.com domain. Old sendgrid.com/pricing links are dead.",
+      "pricing_url": "https://www.twilio.com/en-us/sendgrid/pricing",
+      "why_look_for_alternatives": "SendGrid pricing has moved to Twilio's domain. For basic transactional email, SES Essentials is cheaper and simpler."
+    },
+    "typeform": {
+      "name": "Typeform",
+      "category": "surveys",
+      "pricing_starting_usd_monthly": 28.0,
+      "why_look_for_alternatives": "Per-response pricing explodes with volume: the response base is the meter, and exceeding it forces a tier jump, not an overage rate. Self-hosted Formbricks removes response and seat caps entirely; the arbitrage is real because surveys are commodity CRUD on Postgres with no data moat.",
+      "alternatives": [
+        "formbricks"
+      ]
+    }
+  }
+}

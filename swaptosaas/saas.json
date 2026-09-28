@@ -1,0 +1,860 @@
+{
+  "snapshot_note": "Commercial products these open-source projects are compared with.",
+  "source_updated": "2026-08-13T01:59:31.242652+00:00",
+  "products": {
+    "notion": {
+      "name": "Notion",
+      "url": "https://notion.so",
+      "category": "productivity",
+      "pricing_starting_usd_monthly": 10,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "knowledge workers, small teams, startups",
+      "why_look_for_alternatives": "Expensive at scale, data ownership concerns, block editor lock-in, AI features paywalled at higher tiers.",
+      "alternatives": [
+        "appflowy",
+        "affine",
+        "docmost",
+        "anytype",
+        "bookstack",
+        "trilium",
+        "logseq",
+        "outline"
+      ]
+    },
+    "zapier": {
+      "name": "Zapier",
+      "url": "https://zapier.com",
+      "category": "automation",
+      "pricing_starting_usd_monthly": 20,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "no-code operators, ops teams, indie makers",
+      "why_look_for_alternatives": "Task-based pricing punishes high-volume workflows, data leaves your infra, limited custom code, latency on premium features.",
+      "alternatives": [
+        "n8n",
+        "activepieces",
+        "node-red",
+        "huginn",
+        "windmill",
+        "automatisch"
+      ]
+    },
+    "slack": {
+      "name": "Slack",
+      "url": "https://slack.com",
+      "category": "communication",
+      "pricing_starting_usd_monthly": 7.25,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "remote teams, startups, enterprise IT",
+      "why_look_for_alternatives": "Per-seat pricing scales badly, message history caps on free tier, data sovereignty concerns, vendor lock-in.",
+      "alternatives": [
+        "mattermost",
+        "rocketchat",
+        "zulip",
+        "element"
+      ]
+    },
+    "airtable": {
+      "name": "Airtable",
+      "url": "https://airtable.com",
+      "category": "database",
+      "pricing_starting_usd_monthly": 24,
+      "pricing_note": "Team is the cheapest paid tier at $24/user/mo monthly billing ($20 annual). Business is $54/user/mo monthly ($45 annual). Free tier caps at 1,000 records/base. Corrected 2026-08-12: prior value $10 matched no current tier.",
+      "pricing_source": "https://airtable.com/pricing (fetched 2026-08-12, read from embedded monthlyPlansToDisplay costPerUserPerMonthInCents)",
+      "target_audience": "ops teams, product managers, no-code builders",
+      "why_look_for_alternatives": "Row limits, expensive scaling, data lock-in, no self-host option.",
+      "alternatives": [
+        "nocodb",
+        "baserow",
+        "appsmith"
+      ]
+    },
+    "chatgpt-self-hosted": {
+      "name": "ChatGPT (self-hosted setup)",
+      "url": "https://chat.openai.com",
+      "category": "ai",
+      "pricing_starting_usd_monthly": 20,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "developers, privacy-conscious users, teams with sensitive data",
+      "why_look_for_alternatives": "Data privacy, cost at scale, model choice, offline capability, custom model fine-tuning.",
+      "alternatives": [
+        "ollama",
+        "open-webui",
+        "librechat",
+        "lobechat"
+      ]
+    },
+    "google-analytics": {
+      "name": "Google Analytics",
+      "url": "https://analytics.google.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "web developers, marketing teams, privacy-focused sites",
+      "why_look_for_alternatives": "GDPR/privacy concerns, GA4 UX complaints, cookie banner overhead, data ownership.",
+      "alternatives": [
+        "plausible",
+        "umami",
+        "matomo",
+        "posthog"
+      ]
+    },
+    "segment": {
+      "name": "Segment",
+      "url": "https://segment.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 120,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "data engineers, B2B growth teams",
+      "why_look_for_alternatives": "Very expensive at scale, MTU-based pricing, data warehouse coupling issues.",
+      "alternatives": [
+        "rudderstack",
+        "jitsu",
+        "posthog"
+      ]
+    },
+    "linear": {
+      "name": "Linear",
+      "url": "https://linear.app",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 8,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "engineering teams, product managers",
+      "why_look_for_alternatives": "Per-seat pricing, no self-host, want data ownership, no free tier for teams >10.",
+      "alternatives": [
+        "plane",
+        "focalboard",
+        "vikunja"
+      ]
+    },
+    "figma": {
+      "name": "Figma",
+      "url": "https://figma.com",
+      "category": "design",
+      "pricing_starting_usd_monthly": 12,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "designers, product teams",
+      "why_look_for_alternatives": "Adobe acquisition concerns, expensive team plans, data lock-in.",
+      "alternatives": [
+        "penpot",
+        "excalidraw"
+      ]
+    },
+    "zoom": {
+      "name": "Zoom",
+      "url": "https://zoom.us",
+      "category": "communication",
+      "pricing_starting_usd_monthly": 14.99,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "remote teams, educators, event hosts",
+      "why_look_for_alternatives": "Privacy concerns, meeting time limits on free tier, want self-host for compliance.",
+      "alternatives": [
+        "jitsi",
+        "bigbluebutton"
+      ]
+    },
+    "mailchimp": {
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": 13,
+      "pricing_note": "Essentials tier, 500 contacts, monthly billing. Free tier exists but caps at 250 contacts / 500 sends per month with a 250/day send limit. Cost climbs with list size: roughly $26.50/mo at 1,000 contacts and $110/mo at 10,000.",
+      "pricing_source": "web_search cross-check 2026-08-12 (mailchimp.com help pages via search summary) + https://www.emailtooltester.com/en/reviews/mailchimp/pricing/ (fetched 2026-08-12). Official mailchimp.com/pricing/marketing/ returned 200 but prices are JS-rendered, no numbers in HTML.",
+      "target_audience": "small businesses, ecommerce stores, newsletter creators",
+      "why_look_for_alternatives": "Billing is tied to contact count rather than sends, so a list that grows without sending more email still costs more every month. Contacts who unsubscribed can still count toward the tier, and audience/automation limits on cheaper plans push upgrades.",
+      "alternatives": [
+        "listmonk",
+        "mautic"
+      ]
+    },
+    "hubspot": {
+      "name": "HubSpot",
+      "url": "https://www.hubspot.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": 20,
+      "pricing_note": "Marketing Hub Starter, $20/month per seat. Free CRM tier exists with HubSpot branding on forms/email. The jump to Professional is steep: $890/month including 3 core seats. Marketing contact tiers add cost on top once past the included allotment.",
+      "pricing_source": "https://legal.hubspot.com/hubspot-product-and-services-catalog (fetched 2026-08-12, official catalog: \"Marketing Hub Starter Starts at $20/month per seat\"). hubspot.com/pricing/marketing is JS-rendered with no prices in HTML.",
+      "target_audience": "B2B marketing teams, sales orgs, scaling startups",
+      "why_look_for_alternatives": "The gap between Starter and Professional is a 40x price jump, and the features most teams actually want (automation, reporting, custom workflows) sit above that line. Contact data and email history live in HubSpot's schema, which makes migrating out expensive once it is the system of record.",
+      "alternatives": [
+        "mautic"
+      ]
+    },
+    "calendly": {
+      "name": "Calendly",
+      "url": "https://calendly.com",
+      "category": "scheduling",
+      "pricing_starting_usd_monthly": 12,
+      "pricing_note": "Standard tier $12/seat/mo on monthly billing ($10/seat/mo if billed annually, page shows 'Save 16%'); Free tier limited to 1 event type per user",
+      "pricing_source": "https://calendly.com/pricing (annual $10 read from page 2026-08-12) + web_search cross-check 2026-08-12 (usecarly.com, zeeg.me, talkspresso.com) for $12 monthly",
+      "target_audience": "sales reps, recruiters, consultants, customer success teams",
+      "why_look_for_alternatives": "Per-seat pricing adds up fast for teams where scheduling is incidental to the job, and the free tier's single-event-type cap makes it unusable for anyone with more than one meeting format. Booking data and invitee details sit on Calendly's servers, which is a problem for regulated industries.",
+      "alternatives": [
+        "cal-com"
+      ]
+    },
+    "loom": {
+      "name": "Loom",
+      "url": "https://www.loom.com",
+      "category": "communication",
+      "pricing_starting_usd_monthly": 18,
+      "pricing_note": "Business tier, $18 per user per month on monthly billing. Free Starter tier caps at 25 videos and 5-minute recordings. AI features are gated to the $24/user/mo tier. Annual billing saves up to 17% per the page.",
+      "pricing_source": "https://www.loom.com/pricing (fetched 2026-08-12, monthly/annual toggle values present in server HTML)",
+      "target_audience": "remote teams, product managers, support teams, sales engineers",
+      "why_look_for_alternatives": "The free tier's 5-minute recording limit and 25-video cap make it a trial rather than a usable plan, so most real usage lands on per-seat billing. Videos are hosted on Loom's infrastructure, so recordings containing customer data or internal systems leave your control, and cancelling risks orphaning links already embedded in docs and tickets.",
+      "alternatives": []
+    },
+    "typeform": {
+      "name": "Typeform",
+      "url": "https://www.typeform.com",
+      "category": "forms",
+      "pricing_starting_usd_monthly": 39,
+      "pricing_note": "Basic tier, $39/month on monthly billing (drops to $28/mo equivalent when billed annually). Free tier exists but caps responses tightly. Plus is $79/mo and Business $129/mo on monthly billing.",
+      "pricing_source": "https://www.typeform.com/pricing/ (fetched 2026-08-12, data-pricing-id=\"monthly-total\" values in server HTML: basic 39 / plus 79 / business 129; JSON-LD lowPrice 28.00 USD reflects the annual rate)",
+      "target_audience": "marketers, researchers, HR teams, product teams running surveys",
+      "why_look_for_alternatives": "Response caps are the real pricing lever, so a single successful campaign can blow through the tier and force an upgrade mid-month. At $39/mo for the entry plan it is expensive relative to how often most teams actually collect forms, and survey responses containing PII sit with a third party.",
+      "alternatives": [
+        "formbricks"
+      ]
+    },
+    "canva": {
+      "name": "Canva",
+      "url": "https://www.canva.com",
+      "category": "design",
+      "pricing_starting_usd_monthly": 18,
+      "pricing_note": "Canva Pro, $18/month for a single user on monthly billing ($144/year if billed annually, about $12/mo). Free tier is genuinely usable but excludes most premium stock assets, brand kit, and background remover.",
+      "pricing_source": "web_search cross-check 2026-08-12 (canva.com) + https://www.stylefactoryproductions.com/blog/canva-pricing (fetched 2026-08-12, states \"Canva Pro — $18 per month or $144 per year\"). canva.com/pricing/ returns 403 to non-browser clients.",
+      "target_audience": "social media managers, small businesses, non-designers, content creators",
+      "why_look_for_alternatives": "Designs are locked in a proprietary format with no meaningful export path for editable source files, so leaving means rebuilding assets. Premium stock elements are licensed only while you keep paying, which means past designs can become unusable if you downgrade.",
+      "alternatives": [
+        "penpot",
+        "excalidraw"
+      ]
+    },
+    "monday": {
+      "name": "monday.com",
+      "url": "https://monday.com",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 12,
+      "pricing_note": "Basic tier, $12 per seat per month on monthly billing ($9/seat if billed annually). Free tier caps at 2 seats and 3 boards. Paid plans require a minimum of 3 seats, so the real entry cost is about $36/month. AI credits are metered separately on top.",
+      "pricing_source": "https://monday.com/pricing (fetched 2026-08-12, JSON-LD UnitPriceSpecification: price 12 USD unitCode MON \"Per seat, billed monthly\"; visible page text served EUR due to request IP geolocation)",
+      "target_audience": "operations teams, marketing agencies, cross-functional project teams",
+      "why_look_for_alternatives": "The 3-seat minimum plus per-seat billing means small teams pay for capacity they do not use, and the features that justify the tool (automations, timeline views, dashboards) are metered or reserved for higher tiers. Automation and AI credit caps create surprise costs mid-month.",
+      "alternatives": [
+        "plane",
+        "focalboard",
+        "vikunja"
+      ]
+    },
+    "asana": {
+      "name": "Asana",
+      "url": "https://asana.com",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 13.49,
+      "pricing_note": "Starter tier, $13.49 per user per month billed monthly ($10.99/user/mo billed annually). Free Personal tier is capped at 2 users. Advanced is $30.49/user/mo monthly. Portfolio and goal features are gated above Starter.",
+      "pricing_source": "https://asana.com/pricing (fetched 2026-08-12, prices in server HTML: \"$10.99 Per user, per month billed annually. $13.49 billed monthly\")",
+      "target_audience": "marketing teams, operations, cross-team program managers",
+      "why_look_for_alternatives": "Per-seat cost applies to every collaborator including occasional participants, so the bill scales with headcount rather than usage. Reporting, portfolios, and workload views sit above the Starter tier, so the plan most teams buy is not the one that answers management's questions.",
+      "alternatives": [
+        "plane",
+        "vikunja",
+        "focalboard"
+      ]
+    },
+    "confluence": {
+      "name": "Confluence",
+      "url": "https://www.atlassian.com/software/confluence",
+      "category": "productivity",
+      "pricing_starting_usd_monthly": 6.7,
+      "pricing_note": "Standard tier, $6.70 per user per month on monthly billing (Atlassian's own structured data notes this is the default 11-user monthly selection). Free tier caps at 10 users. Premium is $13.20/user/mo. Per-user rate slides down with volume via tiered discounts.",
+      "pricing_source": "https://www.atlassian.com/software/confluence/pricing (fetched 2026-08-12, JSON-LD UnitPriceSpecification price 6.70 USD, description \"Displayed per user per month for the default 11-user monthly selection\")",
+      "target_audience": "engineering orgs, IT teams, enterprises already on Jira",
+      "why_look_for_alternatives": "Content gets locked into Atlassian's storage format and macro ecosystem, so exports lose structure and migration is a project rather than a task. Search and page organization degrade badly at scale, and cost compounds because Confluence is rarely bought alone.",
+      "alternatives": [
+        "docmost",
+        "bookstack",
+        "outline"
+      ]
+    },
+    "jira": {
+      "name": "Jira",
+      "url": "https://www.atlassian.com/software/jira",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 7.91,
+      "pricing_note": "Jira Standard, $7.91 per user per month on monthly billing (Atlassian JSON-LD unitText \"per user/month\", billingDuration 1 MON). Free tier caps at 10 users. Premium is $14.54/user/mo. Per-user rate declines at higher seat counts.",
+      "pricing_source": "https://www.atlassian.com/software/jira/pricing (fetched 2026-08-12, JSON-LD Offer \"Jira Standard\" price 7.91 USD, priceSpecification unitText \"per user/month\")",
+      "target_audience": "software engineering teams, QA, IT service management",
+      "why_look_for_alternatives": "Configuration complexity means workflows, permission schemes, and custom fields accumulate into something only an admin can change, which is its own form of lock-in. Performance degrades on large instances, and the seat count that drives the bill includes stakeholders who only read tickets.",
+      "alternatives": [
+        "plane",
+        "focalboard"
+      ]
+    },
+    "amplitude": {
+      "name": "Amplitude",
+      "url": "https://amplitude.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 0,
+      "pricing_note": "Plus is the lowest paid tier and is usage-based: official pricing page states 'Starts at $0' with the first 2M events/month free, then scales with event volume up to 70M events. No fixed monthly minimum is published for the paid tier, so the entry price is genuinely $0 + per-event overage; Growth and Enterprise are quote-only.",
+      "pricing_source": "https://amplitude.com/pricing (fetched 2026-08-12)",
+      "target_audience": "product teams, growth teams, PM-led orgs",
+      "why_look_for_alternatives": "Event-volume billing makes the bill unpredictable once you instrument more of the product, and the useful controls (SSO, project permissions, advanced exploration) sit behind quote-only Growth. All behavioural data lives on Amplitude's infra with no self-host option.",
+      "alternatives": [
+        "posthog",
+        "matomo"
+      ]
+    },
+    "mixpanel": {
+      "name": "Mixpanel",
+      "url": "https://mixpanel.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 0,
+      "pricing_note": "Growth is the lowest paid tier and is event-volume based: official pricing page shows 'Starts at $0' with the first 1M events/month included, priced by a volume slider (5M/20M/20M+) with no published fixed monthly minimum. Mixpanel docs confirm events (not MTUs) are the default unit and that overage is charged next month at the a-la-carte rate; MTU-based Enterprise starts at $20,000/year and is offline-only. A third-party figure of $20/mo for 10k MTUs exists but contradicts the official event-based model and was not cross-confirmed.",
+      "pricing_source": "https://mixpanel.com/pricing/ + https://docs.mixpanel.com/docs/pricing (fetched 2026-08-12)",
+      "target_audience": "product teams, growth teams, startups",
+      "why_look_for_alternatives": "Event-volume pricing gets unpredictable as you instrument more, and hitting the free 1M event cap locks you out of your own reports until the month resets. Data lives entirely on Mixpanel's infra with no self-host path.",
+      "alternatives": [
+        "posthog",
+        "matomo"
+      ]
+    },
+    "datadog": {
+      "name": "Datadog",
+      "url": "https://www.datadoghq.com",
+      "category": "monitoring",
+      "pricing_starting_usd_monthly": 18,
+      "pricing_note": "Infrastructure Pro is the entry paid tier at $18 per host/month on-demand (month-to-month), or $15 per host/month billed annually. Priced per host, with allotments per host (100 custom metrics, 5 containers, 500 events). APM is a separate line at $31+ per host/month, so a realistic bill stacks multiple per-host products.",
+      "pricing_source": "https://www.datadoghq.com/pricing/ (fetched 2026-08-12)",
+      "target_audience": "SRE teams, DevOps, platform engineering",
+      "why_look_for_alternatives": "Per-host pricing multiplies fast across environments, and each capability (APM, profiling, security, network) is a separate per-host charge on top of infrastructure. Custom metric and container allotments mean overage bills show up without a config change.",
+      "alternatives": [
+        "grafana",
+        "openobserve"
+      ]
+    },
+    "sentry": {
+      "name": "Sentry",
+      "url": "https://sentry.io",
+      "category": "monitoring",
+      "pricing_starting_usd_monthly": 29,
+      "pricing_note": "Team is the entry paid tier at $29/month billed monthly (JSON-LD 'Team Monthly Subscription' = 29 USD), or $26/month billed annually with default pre-paid data. Includes 50K errors/month; pay-as-you-go beyond that runs $0.0003625 per error at 50K-100K, plus separate meters for logs ($0.50/GB), replays, cron and uptime monitors.",
+      "pricing_source": "https://sentry.io/pricing/ (fetched 2026-08-12)",
+      "target_audience": "engineering teams, backend and frontend developers",
+      "why_look_for_alternatives": "Error-volume billing means a bad deploy or a noisy loop turns into a bill, and the separate meters for logs, replays and monitors make the real cost hard to predict. Sentry is open-core with a self-hosted distribution, so teams wanting data residency or a fixed server cost often move to running it themselves.",
+      "alternatives": []
+    },
+    "hotjar": {
+      "name": "Hotjar",
+      "url": "https://www.hotjar.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 39,
+      "pricing_note": "Observe Plus is the entry paid tier at $39/month billed monthly (100 daily sessions), around $32/month billed annually. Priced per daily session captured, and Ask (surveys) and Engage (interviews) are billed as separate product lines with their own tiers, so covering all three multiplies the cost. Hotjar's own pricing page is JS-rendered and returned no price strings to curl; figure taken from two third-party sources.",
+      "pricing_source": "https://www.heatmap.com/blog/hotjar-pricing (fetched 2026-08-12) cross-checked against web_search summary citing propelcommerce.io and getspike.ai; official https://www.hotjar.com/pricing/ is JS-rendered",
+      "target_audience": "UX researchers, CRO and marketing teams, product designers",
+      "why_look_for_alternatives": "Session-based caps mean a traffic spike silently stops recording, and the three products (Observe, Ask, Engage) are priced separately so a full setup costs well over the headline number. Session recordings of real users sit on a third-party platform, which is a GDPR review every time.",
+      "alternatives": [
+        "posthog",
+        "matomo"
+      ]
+    },
+    "plausible-cloud": {
+      "name": "Plausible Analytics (Cloud)",
+      "url": "https://plausible.io",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 9,
+      "pricing_note": "Starter is the entry paid tier at $9/month for up to 10k monthly pageviews, one site, 3 years retention (annual billing gives 2 months free). Priced by pageview volume: Starter runs $19 at 100k and $69 at 1M; Growth starts at $14 and Business at $19 for the same 10k tier. No free tier, only a trial.",
+      "pricing_source": "https://plausible.io/#pricing (fetched 2026-08-12, prices read from the page's volumesWithPrices data)",
+      "target_audience": "privacy-conscious site owners, indie makers, small marketing teams",
+      "why_look_for_alternatives": "Pageview-based tiers mean a traffic spike bumps you up a bracket, and the cheapest tier caps you at one site with team features gated to Growth and Business. Note this is not a third-party swap: Plausible is open source (AGPL) and the self-hosted Community Edition is the same product you run on your own server for the cost of hosting, trading the subscription for maintaining it yourself.",
+      "alternatives": [
+        "plausible",
+        "umami",
+        "matomo"
+      ]
+    },
+    "fathom-analytics": {
+      "name": "Fathom Analytics",
+      "url": "https://usefathom.com",
+      "category": "analytics",
+      "pricing_starting_usd_monthly": 15,
+      "pricing_note": "Entry paid tier is $15/month for up to 100k monthly pageviews with 50 sites included (annual $150 = 2 months free). Priced by pageview volume: $45/month at 500k, $60 at 1M, $200 at 10M. Extra sites are $10/month per pack of 50. No free tier, 7-day trial only.",
+      "pricing_source": "https://usefathom.com/pricing (fetched 2026-08-12, prices read from the embedded pricing-tiers-data JSON)",
+      "target_audience": "privacy-conscious site owners, agencies managing many sites, indie makers",
+      "why_look_for_alternatives": "Subscription is pageview-metered with no free tier, so low-traffic and hobby sites pay from day one, and costs step up sharply past 500k pageviews. Fathom's own tracker is closed source (only Fathom Lite, a discontinued predecessor, was open), so unlike Plausible there is no first-party self-host path and moving means switching to a third-party OSS tracker.",
+      "alternatives": [
+        "umami",
+        "plausible",
+        "matomo"
+      ]
+    },
+    "github-issues": {
+      "name": "GitHub Issues",
+      "url": "https://github.com/pricing",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 4,
+      "pricing_note": "Issues itself is unlimited on GitHub's Free plan; the cost driver is the seat. Team is the entry paid tier at $4 per user/month (page notes this rate applies for the first 12 months), Enterprise at $21 per user/month. Codespaces and Actions are metered separately ($0.18/hr compute), and Git LFS is $5/month per 50GB pack.",
+      "pricing_source": "https://github.com/pricing (fetched 2026-08-12)",
+      "target_audience": "engineering teams already hosting code on GitHub",
+      "why_look_for_alternatives": "Issues is deliberately thin for planning work: no native sprints, estimates, or roadmap rollups, so teams outgrow it and end up paying per seat for a tracker they still supplement with something else. Your planning data is also locked to the same vendor as your code hosting.",
+      "alternatives": [
+        "plane",
+        "focalboard",
+        "vikunja"
+      ]
+    },
+    "gitlab-saas": {
+      "name": "GitLab (SaaS)",
+      "url": "https://about.gitlab.com/pricing/",
+      "category": "devops",
+      "pricing_starting_usd_monthly": 29,
+      "pricing_note": "Premium is the entry paid tier at $29 per user/month billed annually (JSON-LD price 29.00); no month-to-month rate is published, so the true monthly figure may be higher. Ultimate is quote-only. Compute minutes ($10 per 1,000), storage ($5/month per 10GiB) and GitLab Duo credits ($1/credit, $12/user/month included on Premium) are billed on top.",
+      "pricing_source": "https://about.gitlab.com/pricing/ (fetched 2026-08-12)",
+      "target_audience": "engineering orgs wanting SCM, CI and planning in one platform",
+      "why_look_for_alternatives": "$29 per user/month billed annually is a real jump from Free, and compute minutes, storage and AI credits are metered on top of the seat. Guest users are limited on Premium, so inviting stakeholders costs seats. GitLab is open-core: the self-managed Community Edition covers most of this for hosting cost, which is the usual escape route rather than a third-party tool.",
+      "alternatives": [
+        "plane"
+      ]
+    },
+    "retool": {
+      "name": "Retool",
+      "url": "https://retool.com",
+      "category": "database",
+      "pricing_starting_usd_monthly": 12,
+      "pricing_note": "Team is the entry paid tier at $12 per builder/month billed monthly ($10 billed annually), plus $7 per internal user/month monthly ($5 annually) — two separate meters. Official pricing page served EUR to our EU-hosted request (Team EUR 9 per builder + EUR 5 per internal user, Business EUR 46 + EUR 14), confirming tier structure but not USD; USD figures come from a single web_search cross-check, so treat as lower confidence. Workflow runs metered at $75 per extra 5,000/month.",
+      "pricing_source": "https://retool.com/pricing (fetched 2026-08-12, returned EUR due to geo) + web_search USD cross-check citing adalo.com, vendr.com, jetadmin.io (2026-08-12)",
+      "target_audience": "internal tools developers, ops teams, backend engineers",
+      "why_look_for_alternatives": "Two separate per-person meters (builders and internal users) mean cost scales with everyone who merely opens an app, not just the people building. Workflow runs are metered on top, and your admin panels sit on a vendor platform with direct credentials into production databases.",
+      "alternatives": [
+        "appsmith",
+        "windmill"
+      ]
+    },
+    "beehiiv": {
+      "name": "beehiiv",
+      "url": "https://www.beehiiv.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": 49,
+      "pricing_note": "Priced by subscriber count. Cheapest paid tier is Scale: $49/month on monthly billing at up to 1,000 subscribers (own FAQ: \"paid plans start at $49/month\"); same tier shows $43/month equivalent when prepaid annually at $517/year. Free Launch tier covers up to 2,500 subscribers. Next tier Max is $96/month annual-equivalent.",
+      "pricing_source": "https://www.beehiiv.com/pricing (fetched 2026-08-12)",
+      "target_audience": "newsletter operators, media startups, creators monetizing an audience",
+      "why_look_for_alternatives": "Subscriber-tier pricing climbs steeply as the list grows even when send volume does not, and the audience, website, and monetization stack all live inside one hosted platform you cannot export wholesale.",
+      "alternatives": [
+        "listmonk",
+        "mautic"
+      ]
+    },
+    "convertkit": {
+      "name": "Kit (formerly ConvertKit)",
+      "url": "https://kit.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": 39,
+      "pricing_note": "Priced by subscriber count. Creator is the cheapest paid tier at $39/month at 1,000 subscribers on monthly billing (raised from $29 in September 2025); Creator Pro starts $79/month at the same tier. Free Newsletter plan up to 10,000 subscribers with feature limits. NOTE: kit.com returns 403 with a bot challenge to both curl and web_fetch, so the figure is a two-source third-party cross-check, not the official page.",
+      "pricing_source": "https://www.emailtooltester.com/en/reviews/convertkit/pricing/ and https://www.passivekit.com/kit-price-increase/ (both fetched 2026-08-12; official https://kit.com/pricing blocked 403)",
+      "target_audience": "newsletter creators, course sellers, solo operators",
+      "why_look_for_alternatives": "Subscriber-count pricing compounds and just jumped 34% in one move, and the list plus automations sit on a platform whose export does not carry the sequences with it.",
+      "alternatives": [
+        "listmonk",
+        "mautic"
+      ]
+    },
+    "mailerlite": {
+      "name": "MailerLite",
+      "url": "https://www.mailerlite.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": 12,
+      "pricing_note": "Priced by subscriber count. Comfort is the cheapest paid tier at $12/month for up to 500 subscribers on monthly billing ($10.80/month equivalent if paid yearly); $19/month at 1,000 subscribers, $33/month at 2,500. Power tier starts $25/month at 500 subscribers. Free tier available with sending limits.",
+      "pricing_source": "https://www.mailerlite.com/pricing (fetched 2026-08-12, prices read from the embedded plan table)",
+      "target_audience": "small businesses, bloggers, ecommerce sellers on a budget",
+      "why_look_for_alternatives": "Cheap at the entry tier but the subscriber ladder gets expensive fast, and deliverability plus automation limits are set by the vendor rather than by you.",
+      "alternatives": [
+        "listmonk",
+        "mautic"
+      ]
+    },
+    "substack": {
+      "name": "Substack",
+      "url": "https://substack.com",
+      "category": "marketing",
+      "pricing_starting_usd_monthly": null,
+      "pricing_note": "No monthly subscription fee at all. Revenue-share model: Substack takes 10% of paid subscription revenue and writers keep 90%, minus credit card processing fees on top. Free to publish if you never charge readers.",
+      "pricing_source": "https://substack.com/going-paid (fetched 2026-08-12, \"Writers keep 90% of their revenue minus credit card fees\")",
+      "target_audience": "independent writers, journalists, commentators monetizing readers directly",
+      "why_look_for_alternatives": "The 10% cut is permanent and scales with your success, so a mature paid list pays far more than any flat-fee host, and the platform owns the discovery, network, and reader relationship.",
+      "alternatives": [
+        "listmonk"
+      ]
+    },
+    "ghost-pro": {
+      "name": "Ghost(Pro)",
+      "url": "https://ghost.org/pricing/",
+      "category": "cms",
+      "pricing_starting_usd_monthly": 18,
+      "pricing_note": "Priced by member count. Starter is the cheapest paid tier at $18/month on monthly billing at up to 1,000 members ($180/year if prepaid, i.e. $15/month equivalent). Publisher starts $35/month and Business $239/month at the same 1,000-member tier. Custom SSL / reverse-proxy support is a $50/month add-on on Business only.",
+      "pricing_source": "https://ghost.org/pricing/ plus its pricing data file https://ghost.org/js/pricing.min.js (both fetched 2026-08-12)",
+      "target_audience": "professional bloggers, paid publications, newsletter-plus-website publishers",
+      "why_look_for_alternatives": "You are paying a hosting premium for software that is open source and self-hostable, and the member-count ladder plus staff-seat caps push you up tiers for reasons unrelated to actual traffic.",
+      "alternatives": []
+    },
+    "buffer": {
+      "name": "Buffer",
+      "url": "https://buffer.com",
+      "category": "social-media",
+      "pricing_starting_usd_monthly": 5,
+      "pricing_note": "Priced per connected channel. Essentials is the cheapest paid tier at $5/month for 1 channel on monthly billing ($60/year if prepaid). Team tier is $10/month per channel. Free plan covers up to 3 channels with 10 scheduled posts per channel.",
+      "pricing_source": "https://buffer.com/pricing (fetched 2026-08-12)",
+      "target_audience": "solo creators, small brands, small agencies managing a handful of social accounts",
+      "why_look_for_alternatives": "Per-channel pricing multiplies quickly once you run several brands or platforms, and your entire posting queue plus analytics history lives in a third-party account tied to fragile platform API access.",
+      "alternatives": []
+    },
+    "hootsuite": {
+      "name": "Hootsuite",
+      "url": "https://www.hootsuite.com",
+      "category": "social-media",
+      "pricing_starting_usd_monthly": 99,
+      "pricing_note": "Priced per user seat. Standard is the cheapest paid tier at $99/user/month, but that published figure is the annual-billing rate (their own footnote: \"Prices displayed ... based on annual billing\"); the true month-to-month rate is not exposed in the page HTML. Professional $199/user/month, Advanced $399/user/month, Enterprise custom. Standard caps at 10 social accounts.",
+      "pricing_source": "https://www.hootsuite.com/plans (fetched 2026-08-12, prices read from the page's Offer/AggregateOffer JSON-LD)",
+      "target_audience": "marketing teams, agencies, enterprise social media managers",
+      "why_look_for_alternatives": "Starting at $99 per seat per month makes a small team cost more than most of their other tooling combined, and the pricing is now bundled with AI and listening modules many buyers never use.",
+      "alternatives": []
+    },
+    "sendgrid": {
+      "name": "Twilio SendGrid",
+      "url": "https://www.twilio.com/en-us/sendgrid",
+      "category": "transactional-email",
+      "pricing_starting_usd_monthly": 19.95,
+      "pricing_note": "Priced by monthly send volume. Email API paid plans start at $19.95/month above the free trial tier (100 emails/day for 60 days). Marketing Campaigns is a separate product starting at $15/month. The dedicated SendGrid pricing page now redirects into twilio.com and its plan table is JS-rendered, so the $19.95 figure comes from Twilio's own pricing index page.",
+      "pricing_source": "https://www.twilio.com/en-us/pricing (fetched 2026-08-12, \"Paid plans start at $19.95/month\")",
+      "target_audience": "developers and product teams sending transactional email at scale",
+      "why_look_for_alternatives": "Volume-tier pricing plus paid add-ons for dedicated IPs and validation adds up, and deliverability reputation is shared infrastructure you do not control.",
+      "alternatives": []
+    },
+    "twilio": {
+      "name": "Twilio",
+      "url": "https://www.twilio.com",
+      "category": "communications-api",
+      "pricing_starting_usd_monthly": null,
+      "pricing_note": "Pure usage-based, no monthly platform fee. Outbound US SMS to long codes starts at $0.0083 per message; RCS Rich starts at $0.0083 per outbound message, rich media $0.022. Carrier fees, destination rates, and phone-number rental are billed on top. Volume discounts by negotiation.",
+      "pricing_source": "https://www.twilio.com/en-us/sms/pricing/us (fetched 2026-08-12, \"SMS (U.S.) starts at $0.0083\")",
+      "target_audience": "engineering teams adding SMS, voice, and verification to their product",
+      "why_look_for_alternatives": "Per-message costs are invisible until volume arrives and then dominate the bill, and carrier surcharges plus 10DLC registration make the effective rate hard to forecast.",
+      "alternatives": []
+    },
+    "intercom": {
+      "name": "Intercom",
+      "url": "https://www.intercom.com",
+      "category": "customer-support",
+      "pricing_starting_usd_monthly": 29,
+      "pricing_note": "Priced per full seat plus usage. Essential is the cheapest tier at $29 per seat/month list price (currently discounted to $19 per seat/month as a new-customer offer), Advanced $85 and Expert $132 per seat/month. On top of seats, the Fin AI Agent is charged at $0.99 per resolved outcome with a monthly minimum, and Copilot ($35/agent/month monthly billing), Proactive Support Plus ($99/month) and Pro ($99/month) are separate add-ons. Minimum entry is 1 full seat.",
+      "pricing_source": "https://www.intercom.com/pricing (fetched 2026-08-12)",
+      "target_audience": "SaaS support and success teams, product-led companies",
+      "why_look_for_alternatives": "Seat pricing is only the floor: AI outcome charges and add-ons routinely multiply the real bill, and conversation history plus help centre content end up locked in a vendor whose pricing model has changed repeatedly.",
+      "alternatives": [
+        "chatwoot",
+        "papercups"
+      ]
+    },
+    "drift": {
+      "name": "Drift (Salesloft)",
+      "url": "https://www.drift.com",
+      "category": "customer-support",
+      "pricing_starting_usd_monthly": null,
+      "pricing_note": "price not verified — Drift was acquired by Salesloft and pricing is no longer published. drift.com/pricing renders an empty shell and salesloft.com/pricing lists packages with no dollar amounts, only 'contact us'. Quote-only, sales-gated.",
+      "pricing_source": "https://www.salesloft.com/pricing (fetched 2026-08-12, no prices listed) + https://www.drift.com/pricing/ (fetched 2026-08-12, empty)",
+      "target_audience": "B2B demand-gen teams, enterprise marketing ops, SDR teams",
+      "why_look_for_alternatives": "Pricing is quote-only with annual contracts and steep minimums, and the Salesloft acquisition folded Drift into a larger revenue suite so standalone chat buyers now pay for a platform they may not need.",
+      "alternatives": [
+        "chatwoot",
+        "papercups"
+      ]
+    },
+    "salesforce-lite": {
+      "name": "Salesforce Starter Suite",
+      "url": "https://www.salesforce.com/sales/pricing/",
+      "category": "crm",
+      "pricing_starting_usd_monthly": 25,
+      "pricing_note": "Starter Suite $25 USD/user/month, explicitly 'Billed monthly or annually' so no annual-only discount distortion. Next tiers up (Pro Suite $100, Enterprise $175, Unlimited $350, Agentforce 1 Sales $550) are annual-billed only.",
+      "pricing_source": "https://www.salesforce.com/sales/pricing/ (fetched 2026-08-12)",
+      "target_audience": "small sales teams, startups outgrowing spreadsheets, SMB revenue ops",
+      "why_look_for_alternatives": "Per-seat cost multiplies fast and the jump from Starter Suite to Pro Suite is 4x for features most teams hit within a year, plus API access and real customization sit behind Enterprise pricing.",
+      "alternatives": []
+    },
+    "webflow": {
+      "name": "Webflow",
+      "url": "https://webflow.com",
+      "category": "cms",
+      "pricing_starting_usd_monthly": 25,
+      "pricing_note": "Basic site plan $25/mo when billed monthly ($15/mo billed yearly). Free Starter tier exists but only on a webflow.io subdomain. Site plans stack with Workspace seats and add-ons (Localize from $9/mo, Optimize from $299/mo), and bandwidth overages are billed separately.",
+      "pricing_source": "https://webflow.com/pricing (fetched 2026-08-12; monthly figure from data-monthly-price attribute on the Basic plan card)",
+      "target_audience": "design-led marketing teams, agencies, no-code website builders",
+      "why_look_for_alternatives": "Real costs compound because site plans, Workspace seats, and per-feature add-ons are billed separately, and the visual builder produces markup you cannot self-host or move off Webflow's hosting.",
+      "alternatives": []
+    },
+    "framer": {
+      "name": "Framer",
+      "url": "https://www.framer.com",
+      "category": "design",
+      "pricing_starting_usd_monthly": 10,
+      "pricing_note": "Basic $10/month as shown on the pricing page with the Yearly billing toggle active — this is the annual-billed rate. Framer's own help docs state 'Monthly billing typically costs more than the equivalent monthly cost of an annual subscription' but the monthly-billed figure is JS-rendered and could not be captured, so true month-to-month price is higher than $10. Free tier exists on a Framer subdomain. Additional editor seats $20/mo each, content editors $10/mo.",
+      "pricing_source": "https://www.framer.com/pricing (fetched 2026-08-12, yearly-billed rate) + https://www.framer.com/help/articles/modify-your-billing-cycle-in-framer/ (fetched 2026-08-12, confirms monthly costs more)",
+      "target_audience": "designers, indie founders, marketing sites teams",
+      "why_look_for_alternatives": "Credit-metered AI and per-editor seat charges push the real bill well past the headline price, and sites are locked to Framer hosting with no export path to your own infrastructure.",
+      "alternatives": []
+    },
+    "vercel": {
+      "name": "Vercel",
+      "url": "https://vercel.com",
+      "category": "devops",
+      "pricing_starting_usd_monthly": 20,
+      "pricing_note": "Pro $20/mo per developer seat, includes $20 of usage credit. Hobby tier is $0 but the pricing FAQ states it is for 'personal, non-commercial use'. Everything beyond the included credit is metered (bandwidth, function CPU-hours, ISR reads/writes, image optimization), and SSO is a $300/mo add-on.",
+      "pricing_source": "https://vercel.com/pricing (fetched 2026-08-12)",
+      "target_audience": "frontend teams, Next.js shops, JAMstack developers",
+      "why_look_for_alternatives": "Metered bandwidth and function overages turn a $20 bill into a surprise invoice under traffic spikes, the Hobby tier bars commercial use, and the platform is tightly coupled to Next.js deployment conventions.",
+      "alternatives": [
+        "coolify",
+        "dokku",
+        "caprover"
+      ]
+    },
+    "netlify": {
+      "name": "Netlify",
+      "url": "https://www.netlify.com",
+      "category": "devops",
+      "pricing_starting_usd_monthly": 9,
+      "pricing_note": "Personal $9/month is the cheapest paid tier (1,000 credits/mo); Pro is $20/month with unlimited members and selectable credit tiers. Free tier exists with a 300 credit/month limit. Usage beyond the plan is metered in credits.",
+      "pricing_source": "https://www.netlify.com/pricing/ (fetched 2026-08-12)",
+      "target_audience": "frontend teams, static site and JAMstack developers, agencies",
+      "why_look_for_alternatives": "The credit-based metering makes costs hard to forecast, build minutes and bandwidth overages add up on busy sites, and moving off means rebuilding the serverless function and edge glue you built against Netlify's APIs.",
+      "alternatives": [
+        "coolify",
+        "dokku",
+        "caprover"
+      ]
+    },
+    "mongodb-atlas": {
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/products/platform/atlas-database",
+      "category": "database",
+      "pricing_starting_usd_monthly": 8,
+      "pricing_note": "Usage/cluster-priced, not per seat. Cheapest paid path is a Flex cluster at $0.011/hour, which the pricing page states costs between $8 and $30 for a month's usage depending on ops/second (base tier 0-100 ops/sec = $8.00/mo). Legacy shared tiers M2 $9/mo and M5 $25/mo are also listed. Dedicated clusters start at M10 $0.08/hour, which the page summarizes as 'Starts at $56.94/month'. Free forever M0 tier exists with 512 MB storage. Storage, backup, and data transfer are billed on top.",
+      "pricing_source": "https://www.mongodb.com/pricing (fetched 2026-08-12)",
+      "target_audience": "application developers, backend teams, startups needing managed document storage",
+      "why_look_for_alternatives": "Usage-based billing across compute, storage, backup, and data transfer makes the monthly total hard to predict, and dedicated clusters jump to roughly $57/mo minimum the moment you need production isolation.",
+      "alternatives": []
+    },
+    "redis-cloud": {
+      "name": "Redis Cloud",
+      "url": "https://redis.io/cloud/",
+      "category": "database",
+      "pricing_starting_usd_monthly": 5,
+      "pricing_note": "Usage/cluster-priced, not per seat. Essentials from $0.007/hour, which the pricing page states totals $5/month (250 MB, no replication, US East). Same 250 MB size costs $6/mo with persistence, $7/mo with single-zone replication, up to $10/mo multi-zone with persistence. Pro tier is $0.014/hour with a $200/month minimum. Free tier exists up to 30 MB.",
+      "pricing_source": "https://redis.io/pricing/ (fetched 2026-08-12)",
+      "target_audience": "backend engineers, teams needing managed caching, session stores, vector search",
+      "why_look_for_alternatives": "The gap between Essentials and Pro is severe — Pro carries a $200/month minimum — and Redis relicensed away from open source in 2024, which pushed many teams to look at forks or self-hosting.",
+      "alternatives": []
+    },
+    "airtable-pro": {
+      "name": "Airtable Business",
+      "url": "https://airtable.com/pricing",
+      "category": "database",
+      "pricing_starting_usd_monthly": 54,
+      "pricing_note": "Business $54/user/month billed monthly ($45/user/mo billed annually, per the pricing page copy). Team for comparison is $24/user/month monthly ($20 annually). Monthly figures come from the pricing page's embedded plan JSON (costPerUserPerMonthInCents 5400 for Monthly Self-serve Business, 2400 for Team Monthly).",
+      "pricing_source": "https://airtable.com/pricing (fetched 2026-08-12; monthly rates from embedded monthlyPlansToDisplay JSON, annual rates from page copy)",
+      "target_audience": "ops and RevOps teams, mid-market departments, no-code builders needing admin controls",
+      "why_look_for_alternatives": "Business is over 2x Team per seat and the features that force the upgrade are governance basics like admin controls and SSO, so cost scales with headcount rather than usage, and there is still no self-host option for data residency.",
+      "alternatives": [
+        "nocodb",
+        "baserow",
+        "appsmith"
+      ]
+    },
+    "discord-nitro": {
+      "name": "Discord Nitro",
+      "url": "https://discord.com/nitro",
+      "category": "communication",
+      "pricing_starting_usd_monthly": 2.99,
+      "pricing_note": "Consumer subscription priced per user/month. Nitro Basic $2.99/month is the cheapest paid tier; full Nitro is $9.99/month. Core Discord usage is free; Nitro only unlocks cosmetic and upload perks.",
+      "pricing_source": "https://discord.com/nitro (fetched 2026-08-12)",
+      "target_audience": "gamers, community members, hobbyist server operators",
+      "why_look_for_alternatives": "Weak fit for the swaptosaas B2B thesis: Nitro is a per-user consumer cosmetic subscription (custom emoji, bigger uploads, HD streaming), not a business tool, so there is no seat-cost or data-sovereignty pain driving a self-hosting decision. Teams evaluating Discord for work are really comparing the platform, not Nitro.",
+      "alternatives": []
+    },
+    "dropbox": {
+      "name": "Dropbox",
+      "url": "https://dropbox.com",
+      "category": "file-storage",
+      "pricing_starting_usd_monthly": 9.99,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals, small teams needing cloud file sync",
+      "why_look_for_alternatives": "Pricing jumped significantly, limited free tier (2 GB), privacy concerns with cloud storage, expensive for teams.",
+      "alternatives": [
+        "nextcloud",
+        "seafile",
+        "syncthing",
+        "owncloud",
+        "rclone"
+      ]
+    },
+    "google-drive": {
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "category": "file-storage",
+      "pricing_starting_usd_monthly": 1.99,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals and teams in Google ecosystem",
+      "why_look_for_alternatives": "Data privacy concerns, Google account dependency, 15 GB free limit, no end-to-end encryption by default.",
+      "alternatives": [
+        "nextcloud",
+        "seafile",
+        "syncthing",
+        "owncloud",
+        "immich"
+      ]
+    },
+    "evernote": {
+      "name": "Evernote",
+      "url": "https://evernote.com",
+      "category": "note-taking",
+      "pricing_starting_usd_monthly": 10.99,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals and professionals needing note-taking and organisation",
+      "why_look_for_alternatives": "Free tier severely cut to 1 device and 50 notes, price increase, data ownership concerns, performance issues.",
+      "alternatives": [
+        "joplin",
+        "obsidian",
+        "logseq",
+        "notesnook",
+        "appflowy",
+        "trilium"
+      ]
+    },
+    "todoist": {
+      "name": "Todoist",
+      "url": "https://todoist.com",
+      "category": "task-management",
+      "pricing_starting_usd_monthly": 4.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals and small teams managing tasks and projects",
+      "why_look_for_alternatives": "Key features like reminders paywalled, no self-hosting, data not fully exportable, vendor lock-in.",
+      "alternatives": [
+        "vikunja",
+        "tasks.org",
+        "super-productivity",
+        "planka",
+        "deck-nextcloud"
+      ]
+    },
+    "trello": {
+      "name": "Trello",
+      "url": "https://trello.com",
+      "category": "project-management",
+      "pricing_starting_usd_monthly": 5.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "teams using kanban boards for project tracking",
+      "why_look_for_alternatives": "Owned by Atlassian, free tier limited to 10 boards, power-ups paywalled, privacy concerns.",
+      "alternatives": [
+        "planka",
+        "wekan",
+        "focalboard",
+        "taiga",
+        "leantime"
+      ]
+    },
+    "miro": {
+      "name": "Miro",
+      "url": "https://miro.com",
+      "category": "visual-collaboration",
+      "pricing_starting_usd_monthly": 8.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "design and product teams needing visual collaboration whiteboards",
+      "why_look_for_alternatives": "Expensive at team scale, free tier limited to 3 boards, data ownership, offline access limited.",
+      "alternatives": [
+        "excalidraw",
+        "tldraw",
+        "drawio",
+        "mermaid",
+        "penpot"
+      ]
+    },
+    "1password": {
+      "name": "1Password",
+      "url": "https://1password.com",
+      "category": "password-manager",
+      "pricing_starting_usd_monthly": 2.99,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals and teams needing secure password management",
+      "why_look_for_alternatives": "Subscription-only (dropped one-time purchase), cloud-only vault, cost for families/teams, trust in closed-source.",
+      "alternatives": [
+        "bitwarden",
+        "vaultwarden",
+        "keepass",
+        "keepassxc",
+        "passbolt"
+      ]
+    },
+    "lastpass": {
+      "name": "LastPass",
+      "url": "https://lastpass.com",
+      "category": "password-manager",
+      "pricing_starting_usd_monthly": 3.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "individuals needing cross-device password sync",
+      "why_look_for_alternatives": "Major security breaches (2022), free tier restricted to one device type, closed source, trust damaged.",
+      "alternatives": [
+        "bitwarden",
+        "vaultwarden",
+        "keepassxc",
+        "passbolt",
+        "gopass"
+      ]
+    },
+    "superhuman": {
+      "name": "Superhuman",
+      "url": "https://superhuman.com",
+      "category": "email-client",
+      "pricing_starting_usd_monthly": 30.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "power users wanting fast email with keyboard shortcuts and AI features",
+      "why_look_for_alternatives": "Expensive ($30/mo), invite-only historically, no self-hosting, closed source, works only on top of Gmail/Outlook.",
+      "alternatives": [
+        "mimestream",
+        "hey",
+        "fastmail",
+        "thunderbird",
+        "aerc"
+      ]
+    },
+    "docusign": {
+      "name": "DocuSign",
+      "url": "https://docusign.com",
+      "category": "e-signature",
+      "pricing_starting_usd_monthly": 10.0,
+      "pricing_note": null,
+      "pricing_source": null,
+      "target_audience": "businesses and individuals needing legally-binding e-signatures",
+      "why_look_for_alternatives": "Expensive, per-envelope pricing adds up, vendor lock-in, overkill for basic signing needs.",
+      "alternatives": [
+        "docuseal",
+        "opensignage",
+        "esignature-free",
+        "signaturit"
+      ]
+    }
+  }
+}
